@@ -10,8 +10,8 @@
       "icon": "calendar",
       "extends": "center-panel",
       "requiresFields": [],
-      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1.0.0/calendar.zip",
-      "sha256": "PLACEHOLDER_REPLACE_AFTER_RELEASE"
+      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1/calendar.zip",
+      "sha256": "1fb3b6a864673bd55552f430a44f1d68d5e0de2c5ffd70feee7ee7ce9b2e2a59"
     },
     {
       "name": "quick-capture",
@@ -22,8 +22,8 @@
       "icon": "bolt",
       "extends": "right-panel",
       "requiresFields": [],
-      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1.0.0/quick-capture.zip",
-      "sha256": "PLACEHOLDER_REPLACE_AFTER_RELEASE"
+      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1/quick-capture.zip",
+      "sha256": "7270b046f638ef8c1685ec32fd3876d8ac29d7052be7db2e89e6b640feb7771a"
     },
     {
       "name": "research-overview",
@@ -34,8 +34,8 @@
       "icon": "gauge",
       "extends": "center-panel",
       "requiresFields": [],
-      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1.0.0/research-overview.zip",
-      "sha256": "PLACEHOLDER_REPLACE_AFTER_RELEASE"
+      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1/research-overview.zip",
+      "sha256": "3fe1d327b455a39081e47bcbd926d751ba96aa8cfef8ac10366246ee9d9aaa53"
     },
     {
       "name": "zotero-library",
@@ -46,8 +46,8 @@
       "icon": "book",
       "extends": "right-panel",
       "requiresFields": [],
-      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1.1.0/zotero-library.zip",
-      "sha256": "PLACEHOLDER_REPLACE_AFTER_RELEASE"
+      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1/zotero-library.zip",
+      "sha256": "5aa9f6a94d0ae894cd1fb13e566ebeec4019a02482ba2a3d8149f3ae632380b5"
     },
     {
       "name": "fig-workbench",
@@ -58,8 +58,8 @@
       "icon": "chart-line",
       "extends": "center-panel",
       "requiresFields": [],
-      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1.0.0/fig-workbench.zip",
-      "sha256": "PLACEHOLDER_REPLACE_AFTER_RELEASE"
+      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1/fig-workbench.zip",
+      "sha256": "41640680d31848fe3ddcedfcfcfa58ae7b0ed40ed215b9a96e9806f596afc132"
     },
     {
       "name": "fig-ai",
@@ -70,8 +70,8 @@
       "icon": "sparkles",
       "extends": "right-panel",
       "requiresFields": [],
-      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1.0.0/fig-ai.zip",
-      "sha256": "PLACEHOLDER_REPLACE_AFTER_RELEASE"
+      "downloadUrl": "https://github.com/MountLynx/index-plugins-research/releases/download/v1/fig-ai.zip",
+      "sha256": "cc59d157469c215095e2c8bf9a1275fbafdf04254b339b89309e620178abf21f"
     }
   ]
 }
