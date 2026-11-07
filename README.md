@@ -35,7 +35,11 @@ exports.default = function (React) {
 
 ## 发布流程
 
-1. 同步 `plugins/<name>/manifest.json` 与 `index.json` 的 `version`（两处一致）。
-2. `zip -r <name>.zip <name>/` → GitHub Release `v<version>`。
-3. `sha256sum <name>.zip` 回填 `index.json`（**PLACEHOLDER 装不上**）。
-4. `git push`（`main`，raw 地址即市场索引）。
+```bash
+python scripts/release.py --tag v1   # 打包 dist/*.zip、算 sha256、写回 index.json 与 downloadUrl
+gh release create v1 dist/*.zip --title v1 --notes "插件包"
+git commit -am "release: v1" && git push
+```
+
+zip 内顶层目录必须等于插件名（引擎按此校验）；`manifest.json` 与 `index.json` 的
+`version` 必须一致；`sha256` 不能留占位——应用下载后会做哈希校验。
