@@ -1,0 +1,10 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "title": "日历",
+  "author": "ResearchIndex",
+  "description": "月视图时间线：Operation/Record/Task 日期点事件 + Experiment 截止日期（过期红色强调），点击跳转条目",
+  "icon": "calendar",
+  "extends": "center-panel",
+  "requiresFields": []
+}

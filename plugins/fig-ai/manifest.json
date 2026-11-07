@@ -1,0 +1,10 @@
+{
+  "name": "fig-ai",
+  "version": "1.0.0",
+  "title": "图表 AI",
+  "author": "ResearchIndex",
+  "description": "图表 AI 面板：指令修改、patch 回写、实时运行时间线。跟随选中条目，Data 条目有图时可用。",
+  "icon": "sparkles",
+  "extends": "right-panel",
+  "requiresFields": []
+}

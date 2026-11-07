@@ -1,0 +1,10 @@
+{
+  "name": "zotero-library",
+  "version": "1.1.0",
+  "title": "Zotero 文献库",
+  "author": "ResearchIndex",
+  "description": "只读 zotero.sqlite 副本：浏览/检索 Zotero 文献，勾选导入 Reference；跳转 Zotero 定位条目与开卷 PDF（纯前端，走 queryExternal/createItem/openExternal）",
+  "icon": "book",
+  "extends": "right-panel",
+  "requiresFields": []
+}

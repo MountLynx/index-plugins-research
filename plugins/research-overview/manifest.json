@@ -1,0 +1,18 @@
+{
+  "name": "research-overview",
+  "version": "1.0.0",
+  "title": "科研总览",
+  "author": "ResearchIndex",
+  "description": "任务清单（Project→Research→Experiment→Operation 分级勾选 + 子树计数 + 四种筛选 + 快捷改期）与统计仪表盘",
+  "icon": "gauge",
+  "extends": "center-panel",
+  "requiresFields": [],
+  "config": {
+    "chain": [
+      { "type": "Project" },
+      { "type": "Research", "linkField": "所属课题" },
+      { "type": "Experiment", "linkField": "所属板块" },
+      { "type": "Operation", "linkField": "所属实验" }
+    ]
+  }
+}

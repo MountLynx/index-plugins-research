@@ -1,0 +1,10 @@
+{
+  "name": "quick-capture",
+  "version": "1.0.0",
+  "title": "快速录入",
+  "author": "ResearchIndex",
+  "description": "模板化一键建条目（今日操作/组会记录/灵感速记），右栏选中实验时自动填归属",
+  "icon": "bolt",
+  "extends": "right-panel",
+  "requiresFields": []
+}
