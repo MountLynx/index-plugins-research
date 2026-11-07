@@ -9,7 +9,10 @@ Index 的**科研域插件分发仓**：市场清单 `index.json` + 插件构建
 | `quick-capture` | 同上 | 模板里写着“今日操作/组会记录” |
 | `research-overview` | 同上 + workspace 配置里的 chain | 四级联动清单 |
 | `zotero-library` | `ctx.queryExternal` / `openExternal` | 读外部 zotero.sqlite 副本 |
-| `fig-workbench` / `fig-ai` | 图表 sidecar（HTTP + WS）+ LLM 配置 | 直连 `__FIG_BASE__` 指向的本机服务 |
+
+> **图表不在本仓**：自 2026-11-07 起 figures 是独立应用 `figure-agent`，由宿主按条目目录
+> 拉起并以 iframe 嵌入（宿主内置 `fig-view` 壳插件）。`fig-workbench` / `fig-ai` 两个
+> 旧插件已从本仓移除。
 
 通用集（calendar-view / stats / table）只依赖 `PluginContext` 的通用部分，装在任何 Index
 仓库都能用；本仓的插件装到通用仓库里会出现“能加载但空转”的情况。
